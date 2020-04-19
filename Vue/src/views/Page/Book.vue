@@ -23,7 +23,7 @@
       @current-change="page"
     ></el-pagination>
 
-    <el-dialog title="书籍信息" :visible.sync="dialogFormVisible">
+    <el-dialog title="书籍信息修改" :visible.sync="dialogFormVisible">
       <el-form :model="form">
         <el-form-item label="图书名" :label-width="formLabelWidth">
           <el-input v-model="form.name" autocomplete="off"></el-input>

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import BookManager from '../views/Page/BookManager'
+import AddBook from '../views/Page/AddBook'
 import Book from '../views/Page/Book'
 
 import Index from '../views/Index'
@@ -21,9 +21,9 @@ const routes = [
         component: Book
       },
       {
-        path: '/bookManager',
-        name: '图书信息修改',
-        component: BookManager
+        path: '/addBook',
+        name: '添加图书',
+        component: AddBook
       },
     ]
   },
