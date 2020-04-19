@@ -1,6 +1,14 @@
-# vuetest
+# 基于SpringBoot JPA Vue的一个小Demo
+
+Vue文件夹为前端代码，SpringBoot-JPA为后端代码。
+
+- 基于Vue脚手架@vue/cli 4.3.1，SpringBoot 2.2.6.RELEASE，JKD 1.8
+- SpringBoot项目使用了Lombok插件。
+
+### **前端代码执行**：
 
 ## Project setup
+
 ```
 npm install
 ```
@@ -15,5 +23,6 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### **后端代码导入IDEA启动运行即可**。
+
+
