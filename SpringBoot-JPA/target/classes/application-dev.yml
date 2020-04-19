@@ -1,0 +1,19 @@
+# 数据库基本信息配置
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    #  url: jdbc:mysql://127.0.0.1:3306/sell?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8    MySql8.x数据库要求加入时区
+    url: jdbc:mysql://127.0.0.1:3306/library?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver    # 项目使用MySql5.x数据库，com.mysql.cj.jdbc.Driver 驱动兼容低版本数据库
+  # JPA信息配置
+  jpa:
+    show-sql: true    # 在控制台打印
+    database: mysql
+    properties:
+      hibernate:
+        format_sql: true   # 格式化SQL语句
+
+server:
+  port: 8081
