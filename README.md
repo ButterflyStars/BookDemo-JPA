@@ -1,5 +1,5 @@
 # 基于SpringBoot JPA Vue的一个小Demo
-
+### 本项目是前后端分离的一个小Demo
 Vue文件夹为前端代码，SpringBoot-JPA为后端代码。
 
 - 基于Vue脚手架@vue/cli 4.3.1，SpringBoot 2.2.6.RELEASE，JKD 1.8，Element-Ui。
