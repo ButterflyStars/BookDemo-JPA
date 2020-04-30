@@ -3,7 +3,7 @@
 Vue文件夹为前端代码，SpringBoot-JPA为后端代码。
 
 - 基于Vue脚手架@vue/cli 4.3.1，SpringBoot 2.2.6.RELEASE，JKD 1.8，Element-Ui。
-- SpringBoot项目使用了Lombok插件。
+- SpringBoot项目使用了Lombok插件，使用JPA操作数据库。
 
 项目运行截图：
 
